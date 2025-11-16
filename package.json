@@ -1,9 +1,17 @@
 {
   "name": "acemcp-node",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "MCP server for codebase indexing and semantic search - Node.js implementation",
   "main": "dist/index.js",
   "type": "module",
+  "bin": {
+    "acemcp-node": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc && npm run copy-templates",
     "copy-templates": "node -e \"require('fs').cpSync('src/web/templates', 'dist/web/templates', {recursive: true})\"",
@@ -12,7 +20,12 @@
     "start:web": "node dist/index.js --web-port 8080",
     "test": "node test-server.js"
   },
-  "keywords": ["mcp", "codebase", "indexing", "semantic-search"],
+  "keywords": [
+    "mcp",
+    "codebase",
+    "indexing",
+    "semantic-search"
+  ],
   "author": "wmymz <wmymz@icloud.com>",
   "license": "ISC",
   "dependencies": {
