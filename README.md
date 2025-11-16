@@ -1,17 +1,12 @@
 # Acemcp Node.js 实现
 
-> 🚀 强大的 MCP 服务器，为 AI 助手提供代码库索引和语义搜索能力
-
 [![npm version](https://img.shields.io/npm/v/acemcp-node.svg)](https://www.npmjs.com/package/acemcp-node)
 [![npm downloads](https://img.shields.io/npm/dm/acemcp-node.svg)](https://www.npmjs.com/package/acemcp-node)
 [![License](https://img.shields.io/badge/license-ISC-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue.svg)](https://www.typescriptlang.org/)
-
-<p align="center">
   <img src="https://img.shields.io/badge/MCP-Model%20Context%20Protocol-orange" alt="MCP">
   <img src="https://img.shields.io/badge/AI-Ready-success" alt="AI Ready">
-</p>
 
 ## 📑 目录
 
@@ -966,7 +961,7 @@ import { getConfig } from './config';
 
 ### 日志系统
 
-日志文件位置：`~/.acemcp/log/acemcp.log`
+日志文件位置:`~/.acemcp/log/acemcp.log`
 
 #### 日志级别
 
@@ -1354,7 +1349,7 @@ chore: 构建/工具相关
 
 **⭐ 如果这个项目对你有帮助，请给它一个 Star！ ⭐**
 
-Made with ❤️ by [wmymz](https://github.com/yeuxuan)
+Made with ❤️ by [yihua](https://github.com/yeuxuan)
 
 </div>
 
